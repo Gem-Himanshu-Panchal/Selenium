@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/hi.panchal/IdeaProjects/tst"><classes/></test>
+
+    <test name="FirefoxTest">
+        <parameter name="safari" value="firefox" />
+        <classes>
+            <class name="test" />
+        </classes>
+    </test>
+    <test name="ChromeTest">
+        <parameter name="safari" value= "chrome" />
+        <classes>
+            <class name="test" />
+        </classes>
+    </test>
+<!--    <test name="IE">-->
+<!--        <parameter name="browser" value= "ie" />-->
+<!--        <classes>-->
+<!--            <class name="test" />-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+</suite>
